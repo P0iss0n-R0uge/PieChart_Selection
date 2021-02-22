@@ -21,7 +21,7 @@ function(input, output, session) {
 
     rv <- reactiveValues()
     
-    AllColumns <- ColumnNames(df_data)
+    AllColumns <- colnames(df_data)
 
     output$PieCharts <- renderUI({
         Output <- tagList()
@@ -32,7 +32,7 @@ function(input, output, session) {
             
             ChartData <- df_data %>% select(ColumnName) %>% group_by_all() %>% summarise(y = n()) # group by value of selected column, name it as y   
             
-            ColumnNames(ChartData)[ColumnNames(ChartData) == ColumnName] <- 'x' # rename selected column as x
+            colnames(ChartData)[colnames(ChartData) == ColumnName] <- 'x' # rename selected column as x
             
             # bind r shiny reactive value with chart click/select/unselect using highchart callbacks
             # add timestamps to each value to make sure it is observable for every click
