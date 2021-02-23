@@ -1,8 +1,6 @@
 # PieChart_Selection
 Trying out highchart callback for pie chart selection in R shiny.
 
-See [here](https://stackoverflow.com/questions/60190866/event-to-capture-unselect-category) for the selection issue of highcharts found on SO.
-
 * Run shiny app from GitHub
 ```R
 shiny::runGitHub('P0iss0n-R0uge/PieChart_Selection', ref = 'main')
@@ -30,3 +28,6 @@ attached base packages:
 other attached packages:
 [1] highcharter_0.8.2    dplyr_1.0.4          shinydashboard_0.7.1 shiny_1.3.2          
 ```
+* related SO
+- [highcharts selection issue] (https://stackoverflow.com/questions/42436998/three-interdependent-selectinput-in-r-shiny-application)
+- [interdependent selectInput] (https://stackoverflow.com/questions/42436998/three-interdependent-selectinput-in-r-shiny-application)
