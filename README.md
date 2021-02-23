@@ -1,7 +1,7 @@
 # PieChart_Selection
 Trying out highchart callback for pie chart selection in R shiny.
 
-See [here](https://stackoverflow.com/questions/60190866/event-to-capture-unselect-category) for the selection issue of highcharts select & unselect found on SO.
+See [here](https://stackoverflow.com/questions/60190866/event-to-capture-unselect-category) for the selection issue of highcharts found on SO.
 
 * Run shiny app from GitHub
 ```R
