@@ -1,5 +1,6 @@
 # PieChart_Selection
 trying out highchart callback for pie chart selection in R shiny
+See [here](https://stackoverflow.com/questions/60190866/event-to-capture-unselect-category) for the selection issue of highcharts select & unselect 
 * Run shiny app from GitHub
 ```R
 shiny::runGitHub('P0iss0n-R0uge/PieChart_Selection', ref = 'main')
