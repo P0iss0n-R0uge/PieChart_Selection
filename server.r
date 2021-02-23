@@ -1,5 +1,4 @@
-library(jsonlite)
-library(tidyverse)
+library(dplyr)
 library(highcharter)
 
 function(input, output, session) {
