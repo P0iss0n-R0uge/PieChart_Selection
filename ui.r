@@ -12,8 +12,5 @@ shinyUI(
     )
   )
 )
-
-# selection issue of highcharts select & unselect 
-# https://stackoverflow.com/questions/60190866/event-to-capture-unselect-category
     
     
