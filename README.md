@@ -28,6 +28,10 @@ attached base packages:
 other attached packages:
 [1] highcharter_0.8.2    dplyr_1.0.4          shinydashboard_0.7.1 shiny_1.3.2          
 ```
-* related SO
-- [highcharts selection issue](https://stackoverflow.com/questions/42436998/three-interdependent-selectinput-in-r-shiny-application)
-- [interdependent selectInput](https://stackoverflow.com/questions/42436998/three-interdependent-selectinput-in-r-shiny-application)
+- related SO
+  - [highcharts selection issue](https://stackoverflow.com/questions/42436998/three-interdependent-selectinput-in-r-shiny-application)
+  - [interdependent selectInput](https://stackoverflow.com/questions/42436998/three-interdependent-selectinput-in-r-shiny-application)
+
+- ideas
+  - The final goal is to developed interactive feature like dc.js (d3.js + crossfilter.js) in Shiny. I had used dc.js once in my project(Django) at work and was impressed by its interactivity. I have yet to decide whether to have the data filtered on the server-side or not.
+
