@@ -29,7 +29,7 @@ other attached packages:
 [1] highcharter_0.8.2    dplyr_1.0.4          shinydashboard_0.7.1 shiny_1.3.2          
 ```
 - related SO
-  - [highcharts selection issue](https://stackoverflow.com/questions/42436998/three-interdependent-selectinput-in-r-shiny-application)
+  - [highcharts selection issue](https://stackoverflow.com/questions/60190866/event-to-capture-unselect-category)
   - [interdependent selectInput](https://stackoverflow.com/questions/42436998/three-interdependent-selectinput-in-r-shiny-application)
 
 - ideas
